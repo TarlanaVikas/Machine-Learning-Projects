@@ -26,6 +26,20 @@
 
 ---
 
+### 3. Income Prediction using Random Forest
+* **Folder:** `Income Prediction`
+* **Description:** Predicts whether an individual's income exceeds $50K per year based on demographic and employment-related attributes.
+* **Dataset:** `data.csv`
+* **Notebook:** `Income_Prediction_RandomForest.ipynb`
+* **Highlights:**
+  - Data preprocessing with imputation and one-hot encoding
+  - Random Forest Classifier with balanced class weights
+  - Model evaluation using Accuracy, Precision, Recall, and F1-score
+  - Confusion matrix visualization
+  - Feature importance analysis (top 15 predictors)
+
+---
+
 ### Skills Showcased
 - Data preprocessing and handling missing values
 - Visualization of time-series and categorical data
