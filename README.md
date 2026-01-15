@@ -40,6 +40,20 @@
 
 ---
 
+### 4. Customer Segmentation using K-Means
+* **Folder:** `Customer Clustering`
+* **Description:** Groups customers into distinct clusters based on credit and interaction behavior to identify patterns and support targeted strategies.
+* **Dataset:** `data.csv`
+* **Script/Notebook:** `Customer_Clustering.py` (or `Customer Clustering.ipynb` if run in Colab)
+* **Highlights:**
+  - Data preprocessing with feature selection and standard scaling  
+  - Optimal cluster determination using **Elbow Method** and **Silhouette Analysis**  
+  - K-Means clustering with configurable number of clusters  
+  - PCA-based 2D visualization of customer clusters  
+  - Cluster-level statistics showing mean values of key features  
+
+---
+
 ### Skills Showcased
 - Data preprocessing and handling missing values
 - Visualization of time-series and categorical data
