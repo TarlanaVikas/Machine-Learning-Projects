@@ -54,6 +54,20 @@
 
 ---
 
+### 5. Revenue Prediction using Linear Regression
+* **Folder:** `Revenue Prediction`  
+* **Description:** Predicts company revenue based on financial and operational features such as marketing spend, R&D investment, administrative costs, workforce size, and region. Supports scenario-based forecasting to aid strategic decision-making.  
+* **Dataset:** `data.csv`  
+* **Script/Notebook:** `revenue_prediction.py` (or `Revenue Prediction using Linear Regression.ipynb` if run in Colab)  
+* **Highlights:**  
+  - Data preprocessing with **StandardScaler** for numerical features and **OneHotEncoder** for categorical features  
+  - Linear Regression model wrapped in a **scikit-learn Pipeline** for clean workflow  
+  - Model evaluation using **MAE**, **RMSE**, and **R² Score**  
+  - Scenario-based revenue predictions for different business cases  
+  - Modular functions for loading data, training, evaluation, and prediction  
+
+---
+
 ### Skills Showcased
 - Data preprocessing and handling missing values
 - Visualization of time-series and categorical data
