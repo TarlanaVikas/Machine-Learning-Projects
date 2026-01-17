@@ -68,6 +68,21 @@
 
 ---
 
+### 6. Loan Approval using Logistic Regression
+* **Folder:** `Loan Approval`  
+* **Description:** Predicts loan approval status (`loan_status`) based on applicant demographics, financial attributes, and loan details. Provides interpretable coefficients to understand factors influencing approval or rejection.  
+* **Dataset:** `data.csv`  
+* **Script/Notebook:** `loan_approval.py` (or `Loan Approval using Logistic Regression.ipynb` if run in Colab)  
+* **Highlights:**  
+  - Data preprocessing with **SimpleImputer** (median for numeric, most frequent for categorical)  
+  - **StandardScaler** for numerical features and **OneHotEncoder** for categorical features  
+  - Logistic Regression model wrapped in a **scikit-learn Pipeline** for streamlined workflow  
+  - Model evaluation using **Accuracy**, **Classification Report**, and **Confusion Matrix**  
+  - Feature importance analysis using logistic regression coefficients to identify top approval/rejection factors  
+  - Modular functions for loading data, training, evaluation, and feature importance display  
+
+---
+
 ### Skills Showcased
 - Data preprocessing and handling missing values
 - Visualization of time-series and categorical data
